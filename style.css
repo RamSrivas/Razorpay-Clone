@@ -1,0 +1,133 @@
+/* Utility */
+
+*
+{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+.flex
+{
+    display: flex !important;
+}
+.spacebtw
+{
+    justify-content: space-between;
+}
+
+.rlcenter
+{
+    justify-content: center;
+}
+.udcenter
+{
+    align-items: center;
+}
+
+.margin
+{
+    margin: 0px 294px;
+}
+/*--------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/* Header */
+.topbar
+{
+    width: 100% !important;
+    height: 56px;
+}
+.image
+{
+    height: 40px;
+    width: 138.33px;
+}
+.text
+{
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+
+.box1
+{
+    width: 144.33px;
+    height: 56px;
+    padding-right: 40px;
+    margin-right: 20px;
+}
+.box2
+{
+    width: 588.29px;
+    height: 56px;
+}
+.sn-button
+{
+    text-decoration: none;
+    background-color: #ff5b15;
+    border-radius: 2px;
+    padding: 5px 16px;
+    color: white;
+    font-weight: 600;
+    font-size: 14px;
+    /* font-family: SFMono-Regular,Menlo,Monaco,Consolas,"Liberation Mono","Courier New",monospace; */
+}
+
+/* ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+.bg-blue
+{
+    background: linear-gradient(45deg,#02042b,#02042b 50%);
+}
+
+/* NavBar */
+
+.padding-nav-button
+{
+    padding: 32px 12px ;
+    color: white;
+}
+.height-90
+{
+    height: 90.83px;
+}
+.logo
+{
+    width: 125px;
+    padding: 28px 22px 28px 0px;
+    height: 25px;
+}
+.nav-r
+{
+    width: 281.46px;
+    padding: 24px 0px;
+    height: 42.833px;
+}
+.login
+{
+    background-color: #02042b;
+    text-decoration: none;
+    padding: 12px 20px;
+    color: white;
+}
+.signup
+{
+    text-decoration: none;
+    background-color: white;
+    margin-left: 16px;
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 2px;
+    color: #4b94ed;
+}
+.imgnav
+{
+    height: 670px;
+}
+.para
+{
+    flex-direction: column;
+    color: white;
+    width: 410px;
+    padding: 80px;
+    font-size: 31px;
+}
