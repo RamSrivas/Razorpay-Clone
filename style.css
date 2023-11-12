@@ -457,7 +457,7 @@
 .sec2-card-text>p 
 {
     margin-top: 24px;
-    font-size: 16px;
+    font-size: 18px;
     color: #818597;
 }
 .sec2-card-text>h3 
@@ -519,7 +519,6 @@
 {
     padding: 40px;
     text-align: left;
-    /* border:solid 1px #818597; */
     box-shadow: 2px 4px 9px 1px hsla(0, 0%, 0%, 0.05);
 }
 .sec4-card-text>p 
