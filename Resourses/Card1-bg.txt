@@ -1,0 +1,11 @@
+<svg viewBox="0 0 338.6607360839844 225.00001525878906" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" class="card-bg"><path d="m 0 6 
+          a 6 6 0 0 1 6 -6 
+          h 239.66073608398438 
+          a 16 16 0 0 1 11 5 
+          l 77 77 
+          a 16 16 0 0 1 5 11 
+          v 126.00001525878906 
+          a 6 6 0 0 1 -6 6 
+          h -326.6607360839844 
+          a 6 6 0 0 1 -6 -6 
+          z" fill="#181C2F" stroke="white"></path></svg>

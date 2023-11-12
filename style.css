@@ -286,27 +286,31 @@
     grid-gap: 2rem;
 
 }
-
-.apcard {
-    border: 1px solid gainsboro;
-    border-radius: 4px;
-    clip-path: polygon(65% 0, 100% 30%, 100% 100%, 0 100%, 0 0);
+.apsec-card-text>h3 {
+    font-size: 22px;
+    font-weight: bolder;
+}
+.card-logo
+{
+    background-color:#2b84ea;
+    border-radius: 50%;
+    position: absolute;
+    left: 284px;
+    top: 6px;
+    z-index: -1;  
 }
 
 .apsec-card-text {
     padding: 24px 48px 24px 20px;
     text-align: left;
-}
-
-.apsec-card-text>h3 {
-    font-size: 22px;
-    font-weight: bolder;
+    position: relative;
+    background: url(./Resourses/Card-bg.svg) ;
 }
 
 .apsec-card-text>p {
     margin-top: 24px;
     font-size: 16px;
-    color: grey;
+    color: #818597;
 }
 
 .apsec-card-button {
@@ -364,10 +368,41 @@
     display: inline-block;
     background-color: #61cea6;
     line-height: 1em;
+    border-radius: 1px ;
     vertical-align: middle;
     transform: skew(20deg);
     margin-left: 30px;
     
+}
+.sec2-button {
+    padding-top: 2rem;
+    text-align: left;
+}
+.green-strap-su
+{
+    width: 3rem;
+    height: 3.7rem;
+    display: inline-block;
+    background-color: #61cea6;
+    border-radius: 1px ;
+    line-height: 1em;
+    vertical-align: middle;
+    transform: skew(20deg);
+    margin-left: 20px;
+}
+.sec2-signup-img {
+    height: 481px;
+    width: 600px;
+}
+.sec2-signup-button
+{
+    text-decoration: none;
+    background-color: #2b84ea;
+    border-radius: 4px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 14px 18px;
 }
 .arrowsec2
 {
@@ -375,6 +410,14 @@
     transform: skew(-20deg);
     left: -7px;
     padding-top: 0.85rem;
+    
+}
+.arrowsec2-su
+{
+    position: relative;
+    transform: skew(-20deg);
+    left: -7px;
+    padding-top: 1.15rem;
     
 }
 .white {
@@ -385,7 +428,8 @@
     font-size: 28px;
 }
 
-.text1 {
+.text1 
+{
     flex-direction: column;
     margin: 48px 0px 0px 48px;
     justify-content: center;
@@ -394,7 +438,32 @@
     text-align: left;
     line-height: 1.625;
 }
-
+.sec2-card-text 
+{
+    padding: 24px 48px 24px 20px;
+    text-align: left;
+    position: relative;
+    background: url(./Resourses/Card1-bg.svg);
+}
+.card1-logo
+{
+    background-color:#2b84ea;
+    border-radius: 50%;
+    position: absolute;
+    left: 284px;
+    top: 6px;  
+}
+.sec2-card-text>p 
+{
+    margin-top: 24px;
+    font-size: 16px;
+    color: #818597;
+}
+.sec2-card-text>h3 
+{
+    font-size: 22px;
+    font-weight: bold;
+}
 .apsec-cards1 {
     width: 1080px;
     height: auto;
